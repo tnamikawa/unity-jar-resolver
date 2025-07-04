@@ -23,10 +23,10 @@ apply plugin: 'com.android.application'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    compile 'com.android.support:support-annotations:26.1.0' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:4
-    compile 'com.google.firebase:firebase-app-unity:5.1.1' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:10
-    compile 'com.google.firebase:firebase-common:16.0.0' // Google.AndroidResolverIntegrationTests.SetupDependencies
-    compile 'org.test.psr:classifier:1.0.1:foo@aar' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:12
+    implementation 'com.android.support:support-annotations:26.1.0' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:4
+    implementation 'com.google.firebase:firebase-app-unity:5.1.1' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:10
+    implementation 'com.google.firebase:firebase-common:16.0.0' // Google.AndroidResolverIntegrationTests.SetupDependencies
+    implementation 'org.test.psr:classifier:1.0.1:foo@aar' // Assets/ExternalDependencyManager/Editor/TestDependencies.xml:12
 // Android Resolver Dependencies End
 **DEPS**}
 
